@@ -1,0 +1,71 @@
+body
+{
+    background-color:  hsl(47, 88%, 63%);
+    display: flex;
+   justify-content: center;
+   align-items: center;
+    font-family: "Figtree", Arial, sans-serif;
+    font-size: 15px;
+}
+#img1
+{
+    display:flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content:center ;
+    
+    border-radius:30px;
+}
+.container{
+    display:flex;
+    flex-direction: column;
+   align-items: flex-start;
+   background-color: hsl(0, 0%, 100%);
+    border-radius: 20px;
+   /* max-height:fit-content; */
+   max-width: 400px;
+   padding: 10px;
+   text-align: center;
+}
+#Lh3
+{
+    display:flex;
+    flex-direction:row;
+    background: hsl(47, 88%, 63%);
+    border-radius: 10px;
+    align-items:center;
+    justify-content: center;
+    /* justify-content: flex-start; */
+
+    height: 50px;
+    width:135px;
+}
+.owner
+{
+    display:flex;
+    flex-direction: row;
+}
+p{
+    color: hsl(0, 0%, 42%);
+  font-size: 0.95rem;
+  line-height: 1.5;
+  margin-bottom: 24px;
+}
+.container #img2
+{
+    display:flex;
+    align-items:flex-start;
+}
+#para
+{
+    display:flex;
+    text-align: left;
+}
+.attribution {
+  position: fixed;
+  bottom: 16px;
+  left: 0;
+  right: 0;
+  text-align: center;
+  font-size: 0.6875rem;
+}
